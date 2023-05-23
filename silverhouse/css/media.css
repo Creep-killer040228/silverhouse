@@ -1,0 +1,81 @@
+@media screen and (max-width:1140px) {
+    .build {
+        padding: 40px;
+    }
+
+    .build-h {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header__nav {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+    .nav__menu {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .blocks__wrap {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+
+    .build {
+        padding: 40px;
+        align-items: center;
+    }
+
+    .contacts {
+        max-width: 500px;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer__texts {
+        font-style: 14px;
+        line-height: 16px;
+    }
+}
+
+
+
+@media screen and (max-width:700px) {
+    .blocks__wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts {
+        max-width: 500px;
+        align-items: center;
+    }
+
+    .contacts__desc {
+        align-items: center;
+    }
+
+    .contacts__desc-gmail {
+        margin-top: 20px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .header__nav {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
